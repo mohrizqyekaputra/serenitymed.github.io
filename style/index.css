@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+main{
+    margin: 20px;
+    margin-top: 66.58px;
+}
+:root {
+    --box-shadow:5px 5px 15px #c1c8d3,
+    -5px -5px 15px #eff;
+}
+
+/* header navigation bar */
+
+#home-nav{
+    border-bottom: solid 2px #4472c4;
+}
+
+/* end of navigation bar and header */
+
+.Heading {
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: default;
+}
+.centered p {
+    font-style: italic;
+    font-size: x-large;
+}
+.centered h1{
+    font-size: xx-large;
+}
+  .image{
+    filter: brightness(70%);
+}
+.container{
+    display: inline-flex;
+    justify-content: space-between;
+    cursor: default;
+}
+.item{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    padding : 20px;
+    border-radius: 10px;
+    background-color: #9dc3e7;
+    margin-right: 20px;
+}
+.Text1{
+    color: #224E75;
+    font-weight: bold;
+    font-size: x-large;
+}
+.Text2{
+    font-style: italic;
+    font-size: 20px;
+}
+.Text3{
+    font-size: medium;
+    font-size: 20px;
+}
+.find{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: white;
+    border-radius: 20px;
+    font-weight: 500px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin-right: 0;
+}
+.find a{
+    color: #161623;
+    text-decoration: none;
+}
+.imgdokter1{
+    border-radius: 20px;
+}
+.title{
+    cursor: default;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: x-large;
+    color: #224E75;
+}
+.Berita{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerberita{
+    max-width: 1120px;
+    width: 100%;
+    padding: 30px 0;
+
+}
+
+.slide-container{
+    margin: 0 30px ;
+    overflow: hidden;
+}
+
+.card{
+    background: rgb(145, 243, 243);
+    border-radius: 8px;
+}
+.card .judul-berita{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    column-gap: 12px;
+    padding: 15px;
+    font-size: 15px;
+}
+.card .judul-berita a{
+    text-decoration: none;
+    color: #224E75;
+} 
+.card .image-box {
+    height: 200px;
+    text-align: center;
+}
+.card .image-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.swiper-navBtn{
+    color: rgb(0, 195, 255);
+    height: 45px;
+    width: 45px;
+}
+.all-achievement-container{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10%;
+    gap: 10px;
+}
+
+.achievement-row{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.achievement {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px 0px 10px 0px;
+    background-color: #c3cbdc;
+    background-image: linear-gradient(147deg, #c3cbdc 0%, #edf1f4 74%);
+    align-items: center;
+    border-radius: 10px;
+    height: 200px;
+    transition: ease-in-out 0.5s;
+    cursor: default;
+    margin-right: 10px;
+}
+
+.achievement:hover{
+    scale: 1.2;
+    margin: 0 5%;
+    box-shadow: -1px 2px 5px 6px rgba(255, 255, 255, 0.75);
+}
+
+.achievement img{
+    object-position: center top;
+}
+
+.Layanan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerlayanan{
+    max-width: 1120px;
+    width: 100%;
+    padding: 30px 0;
+
+}
+.card-layanan{
+    background: rgb(233, 255, 255);
+    border-radius: 8px;
+}
+.card-layanan .judul-layanan{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    column-gap: 12px;
+    padding: 15px;
+    font-size: 15px;
+}
+.card-layanan .judul-layanan p{
+    color: #224E75;
+} 
+.card-layanan .image-box {
+    height: 200px;
+    text-align: center;
+}
+.card-layanan .image-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.swiper-navBtn{
+    color: rgb(0, 195, 255);
+    height: 45px;
+    width: 45px;
+}
+.all-achievement-container{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10%;
+    gap: 10px;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    padding: 20px;
+    cursor: default;
+    background-color:#9bcdff;
+}
+
